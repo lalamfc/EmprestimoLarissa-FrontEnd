@@ -1,0 +1,54 @@
+
+  <h6 class="display-6">Cadastrar Cliente</h6>
+  <hr>
+  <div class="container-fluid">
+    <form [formGroup]="clienteForm" (ngSubmit)="cadastrar()" >
+      <div class="row">
+        <div class="col-10">
+          <div class="mb-3">
+            <label for="nomeCompleto" class="form-label">Nome Completo</label>
+            <input type="text"class="form-control" id="nomeCompleto" formControlName ="nomeCompleto"/>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="mb-3">
+            <label for="cpf" class="form-label">CPF</label>
+            <input type="text"class="form-control"id="cpf" formControlName = "cpf"/>
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="mb-3">
+            <label for="telefone" class="form-label">Telefone</label>
+            <input type="text"class="form-control" id="telefone" formControlName = "telefone">
+          </div>
+        </div>
+        <div class="col-10">
+          <div class="mb-3">
+            <label for="rua" class="form-label">Rua</label>
+            <input type="text" class="form-control" id="rua" formControlName = "rua">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="mb-3">
+            <label for="numero" class="form-label">Número</label>
+            <input type="number" class="form-control" id="numero" formControlName = "numero">
+          </div>
+        </div>
+        <div class="col-3">
+          <div class="mb-3">
+            <label for="cep" class="form-label">CEP</label>
+            <input type="text" class="form-control" id="cep" formControlName = "cep">
+          </div>
+        </div>
+          <div class="col-3">
+        <div class="mb-3">
+            <label for="rendimentoMensal" class="form-label">Rendimento Mensal</label>
+            <input type="number" class="form-control" id="rendimentoMensal" formControlName = "rendimentoMensal">
+          </div>
+        </div>
+      </div>
+
+  </form>
+</div>
+  <button type="submit" class="btn btn-secondary">Cadastrar</button>
+

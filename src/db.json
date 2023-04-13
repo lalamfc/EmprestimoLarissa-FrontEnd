@@ -1,0 +1,41 @@
+{
+  "clientes": [
+  {
+    "id": 1,
+    "nomeCompleto": "Larissa Maria",
+    "cpf": "12378785685",
+    "telefone": "65988776655",
+    "endereco": {
+      "cep": "58080183",
+      "rua": "Antonio de Oliveira",
+      "numero": 354
+    },
+    "rendimentoMensal": 5000.00
+  },
+  {
+    "id": 2,
+    "nomeCompleto": "Marcelo José",
+    "cpf": "12378788900",
+    "telefone": "65988776795",
+    "endereco": {
+      "cep": "58080183",
+      "rua": "Avenida Oceano",
+      "numero": 354
+    },
+    "rendimentoMensal": 5000.00
+  },
+  {
+    "id": 3,
+    "nomeCompleto": "Maiza Ferreira",
+    "cpf": "12388900456",
+    "telefone": "83999776795",
+    "endereco": {
+      "cep": "58080183",
+      "rua": "Avenida Rio Mar",
+      "numero": 777
+    },
+    "rendimentoMensal": 10000.00
+  }
+]
+
+}
